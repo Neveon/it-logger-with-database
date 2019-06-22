@@ -1,0 +1,24 @@
+{
+  "name": "it-logger-with-backend",
+  "version": "1.0.0",
+  "description": "React app to track IT department tasks and issues. Connected mongoDB backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "clientinstall": "npm install --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "config": "^3.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.0",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {},
+  "author": "Neil T",
+  "license": "ISC"
+}
