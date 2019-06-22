@@ -19,8 +19,8 @@ Open [http://localhost:3000](http://localhost:3000)
 #### What I Learned
 - Learned how easy it is to use Materialize for simple functioning yet eye catching UI
 - Learned to create a custom sorting algorithm using a `for` loop to iterate through `.find() .sort()` results provided by `mongoose`. This allows the user to search by tech or log message (find it in `routes/logs.js` GET request)
-- Learned the React hook `useRef`, used in Search bar
-    1.useState causes re-render; useRef does not.
+- Learned the React hook `useRef`, used in Search bar<br>
+    1.useState causes re-render; useRef does not.<br>
     2.Both useState and useRef remembers their data after a re-render
     
 ### Issues
