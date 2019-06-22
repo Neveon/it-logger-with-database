@@ -9,9 +9,8 @@
 ### `npm client`
 **To run only front end
 
-**Make sure to connect your mongoURI in `config/default.json` (or `config/production.json` if you plan on deploying)
-
 ### `npm run dev`
 **Runs backend and front end using concurrently
+**Make sure to connect your mongoURI in `config/default.json` (or `config/production.json` if you plan on deploying)
 
 Open [http://localhost:3000](http://localhost:3000)
