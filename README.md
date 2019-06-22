@@ -1,4 +1,5 @@
 # ITLogger
+[Check it out online](https://stormy-basin-17252.herokuapp.com/)
 
 > React app to track IT department tasks and issues. Uses mongoDB for database
 
