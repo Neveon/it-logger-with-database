@@ -86,10 +86,12 @@ router.put('/:id', async (req, res) => {
   const { tech, message, attention } = req.body;
 
   // Build log object
-  const logField = { date: Date.now() }; // Update date in new log to now
-  if (tech) logField.tech = tech;
-  if (message) logField.message = message;
-  if (attention) logField.attention = attention;
+  const logField = {
+    tech: tech,
+    message: message,
+    attention: attention,
+    date: Date.now()
+  };
 
   try {
     let log = await Log.findById(req.params.id);
